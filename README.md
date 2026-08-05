@@ -5,8 +5,8 @@ An end-to-end Machine Learning pipeline built to test a foundational statistical
 This project web-scrapes historical Powerball data, engineers lagged temporal features, and utilizes a GPU-accelerated dual-model XGBoost architecture to evaluate the Null Hypothesis.
 
 ## Read the Full Project Breakdown on Medium
-* **Part 1:** [Scraping and Feature Engineering the Powerball] *([Part1](https://medium.com/@heathdingusa/can-machine-learning-hack-the-lottery-part-1-scraping-and-augmenting-20-years-of-data-8d410fb6df61))*
-* **Part 2:** [Building a Dual-Model XGBoost Architecture] *([Part 2](https://medium.com/@heathdingusa/can-machine-learning-hack-the-lottery-part-2-building-a-dual-model-xgboost-architecture-23954e71d1c5)*
+* **Part 1:** [Scraping and Augmenting 20 Years of Data] *([Part1](https://medium.com/@heathdingusa/can-machine-learning-hack-the-lottery-part-1-scraping-and-augmenting-20-years-of-data-8d410fb6df61))*
+* **Part 2:** [Building a Dual Model XGBoost Architecture] *([Part 2](https://medium.com/@heathdingusa/can-machine-learning-hack-the-lottery-part-2-building-a-dual-model-xgboost-architecture-23954e71d1c5))*
 
 ## Technical Architecture
 Because the Powerball draws the five white balls and the single red ball from **two separate drums** forcing a single model to predict all six numbers violates the mechanics of the game. This repository implements a split-pipeline architecture:
